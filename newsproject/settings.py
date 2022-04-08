@@ -15,8 +15,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECRET_KEY = os.getenv("SECRET_KEY")
 
 # SECRET_KEY = os.environ['SECRET_KEY']
-with open('./newsproject/etc/secret_key.txt') as f:
-    SECRET_KEY = f.read().strip()
+SECRET_KEY = os.environ['SECRET_KEY']
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = FALSE
