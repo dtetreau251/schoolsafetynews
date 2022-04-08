@@ -29,6 +29,6 @@ jobs:
       - name: Run tests
         env: 
           SECRET_KEY: ${{ secrets.SECRET_KEY }}
-        run: 
+        run: |
           nbdev_test_nbs
 
