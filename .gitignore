@@ -4,3 +4,4 @@ venv
 /static  
 .DS_Store  
 .env
+/etc
